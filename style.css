@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+main {
+  width: 60%;
+  margin: auto;
+}
+img {
+  width: 100%;
+}
+header {
+  width: 100vw;
+  height: 378px;
+  background-image: url(images/background-horiz.png);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    background-image: url(images/background-vert.png);
+  }
+}
